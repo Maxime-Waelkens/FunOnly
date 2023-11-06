@@ -1,0 +1,13 @@
+.LoadingPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin : 0;
+    background-color: rgba(96, 31, 235, 0.378);
+    height: 100vh;
+}
+
+.LoadingPage > h1 {
+    font-size: 6vh;
+}
+

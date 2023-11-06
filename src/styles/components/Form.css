@@ -1,0 +1,241 @@
+.ComponentForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+.Form {
+    margin-top: 5.5vw;
+    background: linear-gradient(to bottom, rgba(141, 85, 253, 0.7), rgba(169, 118, 239, 0.7));
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5vw;
+    margin-bottom: 1vw;
+}
+
+.TitleFormConteneur {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    height: auto;
+    margin-bottom: 1vw;
+}
+
+.TitleFormConteneur>h1 {
+    font-size: 2vw;
+    text-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.TitleDescConteneur {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    width: 40vw;
+    height: auto;
+    margin-bottom: 3vw;
+}
+
+.ImageBannerConteneur {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    width: 40vw;
+    height: auto;
+    margin-bottom: 5vw;
+}
+
+.TitleConteneur {
+    margin-top: 0.1vw;
+}
+
+.AboutConteneur {
+    display: flex;
+    flex-direction: column;
+}
+
+.VideoValidButtonConteneur {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 40vw;
+    height: auto;
+    margin-bottom: 1vw;
+}
+
+#AboutGameDev,
+#AboutGameEd {
+    min-width: 100px;
+    width: 15vw;
+    font-size: 1vw;
+}
+
+#TitleGameTitle,
+#DescGameTitle,
+#AboutGameTitle,
+#ImageGameTitle,
+#VideoGameTitle,
+#BannerGameTitle {
+    text-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    font-size: 1.5vw;
+    color: white;
+}
+
+#AboutPlatTitle,
+#AboutPegiTitle,
+#AboutTypeTitle,
+#AboutGenderTitle,
+#AboutDateTitle,
+#AboutGameDevTitle,
+#AboutGameEdTitle {
+    text-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    font-size: 1vw;
+    color: white;
+    font-weight: bold;
+}
+
+#AboutGameType,
+#AboutGameGenre,
+#AboutGamePlatform,
+#AboutGamePegi {
+    min-width: 40px;
+    font-size: 1vw;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    border: solid 1px black;
+    padding: 0.1vw;
+    border-radius: 5px;
+    outline: none;
+}
+
+#AboutGamePlatform {
+    width: 6vw;
+}
+
+#AboutGameGenre {
+    width: 10vw;
+}
+
+#AboutGameType {
+    width: 7vw;
+}
+
+#AboutGamePegi {
+    width: 3vw;
+}
+
+#AboutGameDate {
+    min-width: 40px;
+    width: 10vw;
+    font-size: 1vw;
+    margin-bottom: 4vw;
+    font-size: 1vw;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    border: solid 1px black;
+    padding: 0.3vw;
+    border-radius: 5px;
+}
+
+#AboutGameDate:focus,
+#AboutGameDevText:focus,
+#AboutGameEdText:focus,
+#VideoGameText:focus,
+#TitleGameText:focus,
+#DescGameText:focus {
+    outline: 1px solid black;
+}
+
+#TitleGameText,
+#AboutGameDevText,
+#AboutGameEdText,
+#VideoGameText {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    border: solid 1px black;
+    width: 15vw;
+    border-radius: 5px;
+    padding: 0.3vw;
+    font-size: 1vw;
+}
+
+#ImageGameFile,
+#BannerGameFile {
+    width: 15vw;
+    border-radius: 5px;
+    padding: 0.3vw;
+
+}
+
+#DescGameText {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    border: solid 1px black;
+    min-width: 20vw;
+    max-width: 20vw;
+    width: 20vw;
+    min-height: 15vh;
+    max-height: 25vh;
+    height: 20vh;
+    border-radius: 5px;
+    padding: 0.3vw;
+    font-size: 1vw;
+}
+
+#AboutButton {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    width: 2vw;
+    height: auto;
+    text-align: center;
+    border-radius: 5px;
+    border: solid 1px black;
+    background-color: white;
+    font-size: 1vw;
+    color: black;
+    cursor: pointer;
+}
+
+#PlatButton {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    width: 2vw;
+    height: auto;
+    text-align: center;
+    border-radius: 5px;
+    border: solid 1px black;
+    background-color: white;
+    font-size: 1vw;
+    color: black;
+    cursor: pointer;
+}
+
+#ImageGameFile,
+#BannerGameFile {
+    width: 20vw;
+    font-size: 1vw;
+}
+
+#ValidButton {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-right: 3vw;
+    margin-top: 3vw;
+    width: 7vw;
+    height: auto;
+    padding: 1vw;
+    border-radius: 5px;
+    background-color: rgba(96, 31, 235, 0.378);
+    font-size: 1vw;
+    color: white;
+    font-weight: bold;
+    z-index: 999;
+}
+
+#ValidButton:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}

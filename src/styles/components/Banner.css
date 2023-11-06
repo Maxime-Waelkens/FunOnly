@@ -1,0 +1,17 @@
+.Banner {
+    display: Block;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+.Banner > img {
+    min-width: 100%;
+    max-width: 300px;
+    height: auto;
+    max-height: 300px;
+    border: solid 1px white;
+    position: fixed;
+    border-radius: 0%;
+    z-index: 998;
+}
